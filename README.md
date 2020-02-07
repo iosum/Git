@@ -1,7 +1,13 @@
 # Git
 
 
-lessons|subjects
--------|-------
-1|what is git?
-2|git flow
+
+
+
+## git clone
+download the latest remote repo
+
+git clone [remote url]
+
+example : `$ git clone https://github.com/iosum/Git`
+
