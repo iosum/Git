@@ -64,8 +64,23 @@ git push origin master
 
 ![git-rm-image](images/git-rm.png)
 
+## git log
+
+- view every commit messages
 
 
+![git-rm-image](images/git-log.png)
+
+## git show
+
+- view the commit detail
+
+
+## git diff
+
+- review the changes in the file
+
+![git-rm-image](images/git-diff.png)
 
 
 

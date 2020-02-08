@@ -1,0 +1,41 @@
+[33mcommit 5ec52ebe57543283c3f7a46a7d3f4edaa4655425[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: ChiaYing Ho <joecbgb@gmail.com>
+Date:   Fri Feb 7 10:41:20 2020 -0500
+
+    add remove and perform changes images
+
+[33mcommit a9f7a26dd0f3f808cc25d8d8e6b1007017fbfde7[m
+Author: ChiaYing Ho <joecbgb@gmail.com>
+Date:   Fri Feb 7 10:32:12 2020 -0500
+
+    remove the extra file
+
+[33mcommit fc7d3af38caf0ed2e4d533526dbb5954bf41e6c2[m
+Author: ChiaYing Ho <joecbgb@gmail.com>
+Date:   Fri Feb 7 10:24:43 2020 -0500
+
+    add perform changes in git
+
+[33mcommit c4a25175f5ed58a2f28e4bf1097d089304a84128[m
+Author: ChiaYing Ho <joecbgb@gmail.com>
+Date:   Fri Feb 7 01:00:55 2020 -0500
+
+    add git clone
+
+[33mcommit b6f45d6b52c89b084e6223b5915b00503c138d49[m
+Author: ChiaYing Ho <42313352+iosum@users.noreply.github.com>
+Date:   Wed Dec 25 21:14:24 2019 -0500
+
+    update readme.md
+
+[33mcommit 570adf40254f482fe33fc0e40671b210cae2e717[m
+Author: ChiaYing Ho <42313352+iosum@users.noreply.github.com>
+Date:   Wed Dec 25 21:10:25 2019 -0500
+
+    update git_flow.md
+
+[33mcommit d03e9195ef5e9f04f43d2d48ab54d25c1ff7f10b[m
+Author: ChiaYing Ho <joecbgb@gmail.com>
+Date:   Tue Apr 16 16:30:33 2019 +0800
+
+    Initial commit
