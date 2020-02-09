@@ -82,5 +82,26 @@ git push origin master
 
 ![git-rm-image](images/git-diff.png)
 
+> exit git show : press q
 
+## git commit --amend -m
+
+- change the latest commit message
+
+## git push
+
+- The `Push` operation stores data permanently to the Git repository.
+
+`$ git push origin master`
+
+## git pull
+
+- update the local projects
+
+- executes the `git pull` command to synchronize the local repository with the remote one. 
+
+git pull | git clone
+-|-
+you have the project in your local repo and only want to see the changes | you don't have the project in your local machine and you will need clone all project files|
+multiple times | probably only once
 
