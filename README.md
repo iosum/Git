@@ -105,3 +105,14 @@ git pull | git clone
 you have the project in your local repo and only want to see the changes | you don't have the project in your local machine and you will need clone all project files|
 multiple times | probably only once
 
+
+## git stash
+
+- the `stash` operation takes your modified tracked files, stages changes, and saves them on a stack of unfinished changes that you can reapply at any time
+
+- You cannot commit your partial code and also cannot throw away your changes. 
+So you need some temporary space, where you can store your partial changes and later on commit it.
+
+![](images/git-stash.png)
+
+![](images/git-stash-2.png)
