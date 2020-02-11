@@ -17,7 +17,7 @@
 
 - [git-stash](#git-stash)
 
-
+- [git-move](#git-move)
 
 
 ## git clone
