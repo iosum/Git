@@ -150,3 +150,13 @@ So you need some temporary space, where you can store your partial changes and l
 
 
 ![](images/git-mv.png)
+
+## git rename
+
+- `R` before file name to indicate that the file has been renamed.
+
+- `git commit -a -m "your_messsage"`
+	
+	- `-a` flag makes git commit automatically detect the modified files.
+	
+![](images/git-rename.png)
