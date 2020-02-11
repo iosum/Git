@@ -132,3 +132,21 @@ So you need some temporary space, where you can store your partial changes and l
 ![](images/git-stash.png)
 
 ![](images/git-stash-2.png)
+
+
+## git move
+
+- moves a directory or a file from one location to another
+
+- move the test word document to the src directory
+
+	- `pwd` : prints the current working directory
+	
+	- `ls` : prints lists of files
+	
+	- `mkdir src` : creates a directory named src
+
+	- `git mv your_file folder_of_the_file` : moves your file to the other folder of the file
+
+
+![](images/git-mv.png)
