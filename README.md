@@ -1,5 +1,21 @@
 # Git
 
+## table of contents
+- [git clone](#git-clone)
+
+- [perform change](#perform-change)
+
+- [remove the file after the commit](#remove-th-file-after-the-commit)
+
+- [git log](#git-log)
+
+- [git diff](#git-diff)
+
+- [git commit --amend -m](#git-commit---amend--m)
+
+- [git push](#git-push)
+
+- [git-stash](#git-stash)
 
 
 
