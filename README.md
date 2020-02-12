@@ -189,3 +189,58 @@ So you need some temporary space, where you can store your partial changes and l
 - `git tag -d tag_name`
 
 ![](images/git-tag2.png)
+
+
+## Managing Branches
+
+- allow creating another line of development.
+
+### Create Branch
+
+`git branch new_branch`
+
+![](images/git-create-branch.png)
+
+
+## Switch between Branches
+
+`git chekout the-branch-name-you-want-to-change`
+
+![](images/git-switch-between-branch.png)
+
+
+
+## Shortcut to Create and Switch Branch
+
+`git checkout -b the-branch-name-you-want-to-change`
+
+![](images/git-branch-shortcut)
+
+
+## Delete a Branch
+
+**MUST CHEKOUT TO THE OTHER BRANCH BEFORE DELETING THE BRANCH YOU WANT**
+
+![](images/git-delete-branch.png)
+
+
+## rename a branch
+
+`git branch -m old-branch-name new-branch-name`
+
+![](images/git-rename-branch.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
