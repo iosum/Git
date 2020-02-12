@@ -19,6 +19,8 @@
 
 - [git-move](#git-move)
 
+- [git-remove](#git-remove)
+
 
 ## git clone
 download the latest remote repo
@@ -160,3 +162,30 @@ So you need some temporary space, where you can store your partial changes and l
 	- `-a` flag makes git commit automatically detect the modified files.
 	
 ![](images/git-rename.png)
+
+## git remove 
+
+- `git rm test2.rtf`
+
+## git tag
+
+- allows giving meaningful names to a specific version in the repository
+
+- `git tag -a 'tag_name' -m 'tag_message' HEAD`
+
+### view tag
+
+- view more details about tag
+
+- `git show tag_name`
+
+![](images/git-tag1.png)
+
+
+### delete tag
+
+- delete tags from the local as well as the remote repository
+
+- `git tag -d tag_name`
+
+![](images/git-tag2.png)
