@@ -1,6 +1,7 @@
 # Git
 
 ## table of contents
+
 - [git clone](#git-clone)
 
 - [perform change](#perform-change)
@@ -21,8 +22,18 @@
 
 - [git-remove](#git-remove)
 
+## Source Tree Merge
+
+1. checkout branch
+2. commit the new branch
+3. 切換到 master
+4. 按下 merge, 選擇要被 merge 的 branch
+5. 按下 ok
+6. push 到 master 或是 main
+7. delete local branch
 
 ## git clone
+
 download the latest remote repo
 
 ```
@@ -30,7 +41,6 @@ git clone [remote url]
 ```
 
 example : `$ git clone https://github.com/iosum/Git`
-
 
 ## perform change
 
@@ -55,13 +65,11 @@ git commit -m "your message here"
 if we omit the -m it will pop up the text editor where
 we can write multi lines messages.
 
-
 ![](images/git-perform-changes.png)
-
 
 ## remove the file after the commit
 
-1. remove the file 
+1. remove the file
 
 ```
 git rm [fileName]
@@ -86,13 +94,11 @@ git push origin master
 
 - view every commit messages
 
-
 ![git-rm-image](images/git-log.png)
 
 ## git show
 
 - view the commit detail
-
 
 ## git diff
 
@@ -116,25 +122,23 @@ git push origin master
 
 - update the local projects
 
-- executes the `git pull` command to synchronize the local repository with the remote one. 
+- executes the `git pull` command to synchronize the local repository with the remote one.
 
-git pull | git clone
--|-
-you have the project in your local repo and only want to see the changes | you don't have the project in your local machine and you will need clone all project files|
-multiple times | probably only once
-
+| git pull                                                                 | git clone                                                                                  |
+| ------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------ |
+| you have the project in your local repo and only want to see the changes | you don't have the project in your local machine and you will need clone all project files |
+| multiple times                                                           | probably only once                                                                         |
 
 ## git stash
 
 - the `stash` operation takes your modified tracked files, stages changes, and saves them on a stack of unfinished changes that you can reapply at any time
 
-- You cannot commit your partial code and also cannot throw away your changes. 
-So you need some temporary space, where you can store your partial changes and later on commit it.
+- You cannot commit your partial code and also cannot throw away your changes.
+  So you need some temporary space, where you can store your partial changes and later on commit it.
 
 ![](images/git-stash.png)
 
 ![](images/git-stash-2.png)
-
 
 ## git move
 
@@ -142,14 +146,13 @@ So you need some temporary space, where you can store your partial changes and l
 
 - move the test word document to the src directory
 
-	- `pwd` : prints the current working directory
-	
-	- `ls` : prints lists of files
-	
-	- `mkdir src` : creates a directory named src
+  - `pwd` : prints the current working directory
 
-	- `git mv your_file folder_of_the_file` : moves your file to the other folder of the file
+  - `ls` : prints lists of files
 
+  - `mkdir src` : creates a directory named src
+
+  - `git mv your_file folder_of_the_file` : moves your file to the other folder of the file
 
 ![](images/git-mv.png)
 
@@ -158,12 +161,12 @@ So you need some temporary space, where you can store your partial changes and l
 - `R` before file name to indicate that the file has been renamed.
 
 - `git commit -a -m "your_messsage"`
-	
-	- `-a` flag makes git commit automatically detect the modified files.
-	
+
+  - `-a` flag makes git commit automatically detect the modified files.
+
 ![](images/git-rename.png)
 
-## git remove 
+## git remove
 
 - `git rm test2.rtf`
 
@@ -180,7 +183,6 @@ So you need some temporary space, where you can store your partial changes and l
 - `git show tag_name`
 
 ![](images/git-tag1.png)
-
 
 ### delete tag
 
